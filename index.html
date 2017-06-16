@@ -1,1 +1,181 @@
-Hello world
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+  <title>Channel Elements</title>
+  <meta name="description" content="Channel Elements is a new open internet communication platform">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.5;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    header {
+      min-height: 100vh;
+      text-align: center;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-image: url('images/bg.jpg');
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-direction: column;
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .content {
+      margin: 0 auto;
+    }
+
+    header .content {
+      color: white;
+      font-size: 26px;
+      padding: 40px 5px;
+      max-width: 530px;
+    }
+
+    h1 {
+      font-weight: 300;
+      margin: 0;
+      padding: 20px 5px 3px;
+      font-size: 90px;
+    }
+
+    h2 {
+      margin: 0;
+      font-weight: 300;
+      font-size: 31px;
+      padding: 0 5px;
+    }
+
+    .flex {
+      -ms-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+    }
+
+    .section2 {
+      background: #0c1b3b;
+      color: white;
+      padding: 100px 10px;
+      font-size: 26px;
+      text-align: center;
+    }
+
+    .section2 .content {
+      max-width: 1200px;
+    }
+
+    .section3 {
+      background: white;
+      color: #000;
+      padding: 100px 10px;
+      font-size: 26px;
+      text-align: center;
+    }
+
+    .section3 .content {
+      max-width: 1200px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .social {
+      padding: 40px 0 0;
+    }
+
+    .social img {
+      display: inline-block;
+      height: 180px;
+      width: auto;
+    }
+
+    @media (max-width: 750px) {
+      h1 {
+        font-size: 60px;
+      }
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 44px;
+        line-height: 1.3em;
+        padding: 15px 5px 5px;
+      }
+
+      h2 {
+        font-size: 25px;
+      }
+
+      header .content {
+        font-size: 18px;
+      }
+
+      .section2,
+      .section3 {
+        font-size: 18px;
+      }
+
+      .social img {
+        height: 110px;
+      }
+    }
+
+    a,
+    a:visited,
+    a:hover {
+      outline: none;
+      text-decoration: none !important;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="flex">
+      <h1>channel elements</h1>
+      <h2>a new open internet communication platform</h2>
+    </div>
+    <div>
+      <section class="content">
+        Our vision is to replace every email, chat, and other communication tool you use today.
+      </section>
+    </div>
+  </header>
+  <section class="section2">
+    <div class="content">
+      <p>
+        We can only succeed with your help.<br/>Everything is open-source.<br/>We invite you to participate and build something
+        exciting together.
+      </p>
+    </div>
+  </section>
+  <section class="section3">
+    <div class="content">
+      <p>Check us out on Twitter and Github</p>
+      <div class="social">
+        <a target="_blank" href="https://twitter.com/braidapp">
+          <img  src="images/twitter.png">
+        </a>
+        <a target="_blank" href="https://github.com/ChannelElementsTeam">
+          <img  src="images/github.jpg">
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
